@@ -1,6 +1,6 @@
 # 1. Create a migrate file
 
-    php artisan make:migrate add_new_field_to_tablename
+    php artisan make:migration add_new_field_to_tablename
     
 # 2. Create functions up and down
 You need to add 2 new functions for the up and down grading of your table
