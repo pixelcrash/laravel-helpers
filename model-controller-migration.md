@@ -9,3 +9,6 @@ Laravel can create a model, controller and migrate file with only 2 artisan comm
     php artisan make:controller PluralController --resource
     
 ## 3. Update your migrate file
+
+## 4. Make Resource for API
+    php artisan make:resource Categories
