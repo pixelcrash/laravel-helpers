@@ -1,4 +1,9 @@
 ## Import from a Bank Austria CSV File into a mysql
+
+Type of transaction:
+0 = Minus
+1 = Positive
+
 ```
 <?php
 
