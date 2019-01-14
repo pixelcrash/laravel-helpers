@@ -1,12 +1,6 @@
 ## Import from a Bank Austria CSV File into a mysql
-
+```
 <?php
-
-$user = 'root';
-$password = 'root';
-$db = 'chatwallet';
-$host = 'localhost';
-$port = 8889;
 
 $servername = "localhost:8889";
 $username = "root";
@@ -92,3 +86,4 @@ $account = 0;
          fclose($file);
          echo "CSV File has been successfully Imported.";
 ?>
+```
